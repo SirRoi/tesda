@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>TESDA Spoof Sim</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body, html { margin: 0; padding: 0; font-family: sans-serif; overflow: hidden; }
+    .fake-url-bar {
+      background: #f2f2f2;
+      color: #333;
+      font-size: 14px;
+      padding: 12px;
+      display: flex;
+      align-items: center;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .lock { color: green; margin-right: 6px; }
+    iframe {
+      width: 100%;
+      height: calc(100vh - 40px);
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="fake-url-bar">
+    <span class="lock">🔒</span> https://www.tesda.gov.ph
+  </div>
+  <iframe src="index.html"></iframe>
+</body>
+</html>
